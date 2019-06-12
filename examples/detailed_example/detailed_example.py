@@ -20,7 +20,7 @@ commands = {  # command description used in the "help" command
 }
 
 imageSelect = types.ReplyKeyboardMarkup(one_time_keyboard=True)  # create the image selection keyboard
-imageSelect.add('cock', 'pussy')
+imageSelect.add('Cats', 'Dogs')
 
 hideBoard = types.ReplyKeyboardRemove()  # if sent as reply_markup, will hide the keyboard
 
